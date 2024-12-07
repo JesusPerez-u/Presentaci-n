@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(23, 103, 215);
+}
+.galeria {
+            width: 100px;
+            height: 100px;
+            margin: 100px;
+        }
+.imagen-grande img {
+            width: 400px;
+            height: 400px;
+        }
+.imagen-pequeña{
+                width: 400px;
+                height: 400px;
+}        

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Galería de Fotos</title>
+    <link rel="stylesheet" src="style.css"/>
+    <style> /* Estilos básicos */ 
+    body {
+        background-color: aquamarine;
+    }
+    .galeria img { 
+        width: 100px; 
+        height: 100px; 
+        margin: 10px; 
+    } 
+    .imagen-grande img { 
+        width: 400px; 
+        height: 400px; 
+    } 
+    .imagen-pequeña{
+                width: 400px;
+                height: 400px;
+    }
+</style>
+</head>
+    <body>
+        
+        <h>"Galeria de Fotos"</h>
+        <div class="galeria">
+            <img src="galeria/imagen1.jpg" alt="La IA se sigue desarrollando" class="imagen-pequena">
+            <img src="galeria/images2.jpg" alt="Nuesta naturaleza no lo ve" class="imagen-pequena">
+            <img src="galeria/images3.jpg" alt="Nosotros lo vivimos" class="imagen-pequena">
+            <img src="galeria/images4.jpg" alt="y pronto la IA nos reemplazara" class="imagen-pequena">
+            <img src="galeria/images5.jpg" alt="dejandonos en el olvido" class="imagen-pequena">
+            <img src="galeria/imagen6.jpg" alt="Pronto estaremos viajando fuera del planeta" class="imagen-pequena">
+        </div>
+        <div class="imagen-grande">
+            <img id="imagen-grande" src="imagen1.jpg" alt="Lo veras">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
